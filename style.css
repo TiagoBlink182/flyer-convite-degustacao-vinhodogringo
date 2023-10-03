@@ -1,0 +1,110 @@
+body {
+    background-image: url('/pictures/bkg3.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    /* color: #ffffff; Define a cor do texto para ser visível na imagem de fundo */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.titulo{
+    display: flex;  
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 12px;
+    background-color: rgba(212, 199, 247, 0.733); /* Define um fundo branco translúcido para o conteúdo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: #841fd6;
+}
+
+strong {
+    font-style: italic;
+    color: #410679d5;
+    text-decoration: underline;
+    line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #6510c7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+em {
+    font-style:italic;
+    color: #841fd6;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1;
+}
+.títulorodape{
+    display: flex;
+    text-align: left;
+    padding: 0;
+    margin-top: 60px;
+    text-decoration: underline;
+    width: 300px;
+}
+.rodape {
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    width: 450px;
+    margin-top: 30px;
+}
+.contato {
+    justify-content: center;
+    flex: 1;
+    line-height: 1.5;
+    text-align:left;
+    margin: 5px;
+    padding: 0;
+    width: 50px;
+}
+
+.qrcode {
+    border-radius: 5%;
+    margin-top: -80px;
+    text-align: right;
+}
+.detalhe {
+    font-weight: 100;
+}
+
+.whats {
+    margin: 0;
+    padding: 0;
+}
+.insta {
+    text-align: right;
+}
